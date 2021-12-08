@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Card>ssdasddadsa</Card>
+    <Button label="Submit" />
 
 
     <div>asldñañsldk</div>
@@ -8,9 +8,11 @@
 </template>
 <script>
 import { defineComponent } from 'vue'
+import Button from 'primevue/button'
 
 export default defineComponent({
-  component:{
+  components:{
+    Button
   },
   setup() {
     
